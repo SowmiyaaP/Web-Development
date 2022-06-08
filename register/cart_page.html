@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="cart.css">
+  <link href='https://fonts.googleapis.com/css?family=Margarine' rel='stylesheet'>  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Online Bookstore</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="cart.js" async>
+  </script>
+</head>
+<body onload="get()">
+  <div class="navbar">
+    <a href="home.html">
+      <i class="fa fa-house"
+        style="font-size: 18px;">
+      </i>
+      Home
+    </a>
+    <a href="catl.html">
+      <i class="fa fa-book"
+        style="font-size: 18px;">
+      </i>
+      Browse Collections
+    </a>
+    <a href="#">
+      <i class="fa-brands fa-readme"
+          style="font-size: 18px;">
+      </i>
+      Used Books
+    </a>
+    <a href="cart_page.html" class="right">
+      <i class="fa fa-cart-shopping"
+          style="font-size: 18px;">
+      </i>
+      Cart
+    </a>
+    <a href="reg.html" class="right">
+      <i class="fa fa-user"
+        style="font-size: 18px;">
+      </i>
+      Account
+    </a>
+    <div class="search">
+      <form action="#">
+        <input type="text"
+          placeholder=" Search Books"
+          name="search">
+          <button type="submit">
+            <i class="fa fa-search"
+              style="font-size: 18px;">
+             </i>
+          </button>
+      </form>
+      </div>
+  </div>
+  <br>
+    <div class="card">
+      <div class="header">
+        <i class="fa-solid fa-bag-shopping"
+          style="font-size: 30px;">
+          </i>
+        Your Shopping Bag
+        <br>
+        <br>
+        <div class="products">
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+          </div>
+          <div class="cart-items">
+          </div>
+        </div>
+        <div class="cart-total">
+          <strong class="cart-total-title">Total</strong>
+          <span class="cart-total-price">Rs</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+      </div>
+    </div>
+  </body>
+</html>

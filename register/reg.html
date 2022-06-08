@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>REGISTRATION PAGE</title>
+        <link rel ="stylesheet" href="register_page\stylesheet.css">
+        <link rel="stylesheet" href="bodybg.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>    
+    <body>  
+        <div class="topnav" id="topnav">
+            <nav>
+                <a href="HOME.html">
+                    <i class="fa fa-house"
+                    style="font-size: 18px;">
+                  </i> Home </a>
+                <a href="catl.html"> <i class="fa fa-book"></i>  Inventory </a>
+                <a href="#">
+                    <i class="fa fa-headset"></i> Contact Us </a>
+                <a href="index1.html">
+                    <i class="fa fa-user"
+                    style="font-size: 18px;">
+                  </i> Login </a>
+                <a href="cart_page.html">  <i class="fa fa-cart-shopping"
+                    style="font-size: 18px;"> 
+                </i> Cart </a>
+              </nav>
+            
+        </div>
+        <div class="multi-bg-example"></div>
+        <center>
+        <div class="container">
+         <header><h1><center>REGISTER</center></h1></header>
+            
+            <form name= "registration" class="signup-form" action="/register" >
+                <h5><center>Please fill the following details to register</center></h5>
+                <hr>
+                <center>
+                <table>
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input type ="text" name ="firstname" placeholder="Enter First Name" required></td>
+                    </tr>
+
+                    <tr>    
+                        <td><label>Last Name</label></td>
+                        <td><input type ="text" name ="lastname" placeholder="Enter Last Name" required></td>
+                    </tr>
+               
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type ="text" name ="Email" placeholder="Enter Email" required></td>
+                    </tr>
+                
+                    <tr>
+                        <td><label>Username</label></td>
+                        <td><input type ="text" name ="username" placeholder="Enter username" required></td>
+                    </tr>      
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" name="Password" placeholder="Create your password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password</label></td>
+                        <td><input type="password" name="Password" placeholder="Re-enter your passwaord" required></td>
+                    </tr>
+                </table> 
+                <hr>
+                <div class="form-button">
+                    <br>
+                    <a href="thankyou.html">Register</a>
+                    
+                </div>
+                <center><td><p><h4>Already have an account? <a href="index1.html">Sign in</a></h4></p></td></center>
+            </center>    
+            </form>
+            
+        </div>
+    </center>
+    </body>
+</html>
